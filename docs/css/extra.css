@@ -1,0 +1,8 @@
+ul.task-list {
+    list-style-type: none; /* Remove the bullet points */
+    padding-left: 0; /* Adjust the padding */
+}
+
+ul.task-list li {
+    margin-left: 0; /* Align the checkboxes with the text */
+}
