@@ -2,6 +2,8 @@ site_name: HBCD Processing and Analytic Software Standards
 theme: readthedocs
 markdown_extensions:
   - pymdownx.tasklist
+extra_css:
+  - css/extra.css 
 plugins:
   - search
 docs_dir: docs
