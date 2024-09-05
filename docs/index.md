@@ -26,32 +26,32 @@ In addition to the general guidelines provided by the checklist, we highly encou
 
 We recommend using the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) as a guide for overall organization and what level of detail each section should ideally include. 
 
-# Infrastructure
+## Infrastructure
 
-## NMIND Infrastructure Checklist:
+### NMIND Infrastructure Checklist:
 
-- [ ] Code is open source  
-- [ ] Package is under version control  
-- [ ] Readme is present  
-- [ ] License is present (see more details under [Licensing and software publication/obtaining a DOI](\#licensing-and-software-publication/obtaining-a-doi))  
+[ ] Code is open source  
+[ ] Package is under version control  
+[ ] Readme is present  
+[ ] License is present (see more details under [Licensing and software publication/obtaining a DOI](\#licensing-and-software-publication/obtaining-a-doi))  
 - [ ] Issues tracking is enabled (i.e., either through GitHub or external site)  
 - [ ] Digital Object Identifier (DOI) points to latest version (e.g., Zenodo)  
 - [ ] All documented installation instructions can be successfully followed
 
-## Licensing and software publication/obtaining a DOI {#licensing-and-software-publication/obtaining-a-doi}
+### Licensing and software publication/obtaining a DOI {#licensing-and-software-publication/obtaining-a-doi}
 
 All included software will require a license (see instructions [here](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)) and also a DOI. Internal pipelines to HBCD might be leveraged for release data prior to publication. If the pipeline doesn’t yet have an associated scientific article yet that can be cited, we recommend developers obtain a DOI by self-publishing on Zenodo (see instructions [here](https://cdnis-brain.readthedocs.io/zenodo/)). Software provided for HBCD releases from non-HBCD PIs will be required to be peer reviewed and published along with the DOI.   
 All software will be required to run on BIDS input data or currently available HBCD derivatives as provided in the most current HBCD release. 
 
-## Policies around versioning and new releases
+### Policies around versioning and new releases
 
 Beyond basic version control in GitHub, developers should also tag new releases that are associated with specific versions of the repository whenever a large update (or large number of updates) has been made. The new tagged release should also include a change log that carefully documents the differences between the new and prior version.
 
 Developers may also wish to decide on a standard release cycle as well as special cases/parameters which warrant a new release (e.g. a serious bug fix that needs to be implemented in version ASAP). Ideally there would be documentation around which versions are expected to receive long-term support vs versions that will be deprecated and the timeline for deprecation.
 
-# Testing Ability
+## Testing Ability
 
-## NMIND Testing Checklist:
+### NMIND Testing Checklist:
 
 - [ ] Provide / generate / point to test data  
 - [ ] Provide instructions for users to run tests that include instructions for evaluation for correct behavior
