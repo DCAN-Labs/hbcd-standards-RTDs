@@ -30,10 +30,10 @@ We recommend using the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) a
 
 ### NMIND Infrastructure Checklist:
 
-[ ] Code is open source  
-[ ] Package is under version control  
-[ ] Readme is present  
-[ ] License is present (see more details under [Licensing and software publication/obtaining a DOI](\#licensing-and-software-publication/obtaining-a-doi))  
+- [ ] Code is open source  
+- [ ] Package is under version control  
+- [ ] Readme is present  
+- [ ] License is present (see more details under [Licensing and software publication/obtaining a DOI](\#licensing-and-software-publication/obtaining-a-doi))  
 - [ ] Issues tracking is enabled (i.e., either through GitHub or external site)  
 - [ ] Digital Object Identifier (DOI) points to latest version (e.g., Zenodo)  
 - [ ] All documented installation instructions can be successfully followed
