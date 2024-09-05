@@ -6,9 +6,9 @@ Developers should complete the checklist and open a pull request in the [proceed
 
 At minimum, equivalent standards to the Bronze badge in the rating system are required. Items not relevant can be ignored/circumvented. For example, providing software dependencies is not as critical because all HBCD software is required to be containerized.  Users can make their  best judgment regarding the relevance of each item to your specific software.
 
-# Documentation
+## Documentation
 
-## NMIND Documentation Checklist:
+### NMIND Documentation Checklist:
 
 - [ ] Landing page (e.g., GitHub README, website) provides a link to documentation and brief description of what program does  
 - [ ] Documentation is up to date with version of software  
@@ -20,7 +20,7 @@ At minimum, equivalent standards to the Bronze badge in the rating system are re
 - [ ] User installation instructions available  
 - [ ] Dependencies listed (i.e., external and within-language requirements)
 
-## Hosting Living Documentation on Webpage
+### Hosting Living Documentation on Webpage
 
 In addition to the general guidelines provided by the checklist, we highly encourage living pipeline documentation to be made available via a web page using utilities such as [ReadtheDocs](https://about.readthedocs.com/?ref=readthedocs.com), [GitHub Pages](https://pages.github.com/?(null)), [Wiki](https://support.microsoft.com/en-us/office/create-and-edit-a-wiki-dc64f9c2-d1a2-44b5-ac59-b9d535551a32), etc. This allows for information to stay up-to-date as compared to a publication and also is easier to navigate than a simple GitHub README given the depth of information typically required for image processing pipelines. When writing an initial collaborative draft, we recommend using Google Docs to first solidify the essential content and then convert the documents to whatever format (eg Markdown) is required to upload to the webpage. 
 
