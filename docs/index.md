@@ -9,7 +9,6 @@ At minimum, equivalent standards to the Bronze badge in the rating system are re
 ## Documentation
 
 ### NMIND Documentation Checklist
-
 - [ ] Landing page (e.g., GitHub README, website) provides a link to documentation and brief description of what program does  
 - [ ] Documentation is up to date with version of software  
 - [ ] Typical intended usage is described  
@@ -29,7 +28,6 @@ We recommend using the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) a
 ## Infrastructure
 
 ### NMIND Infrastructure Checklist
-
 - [ ] Code is open source  
 - [ ] Package is under version control  
 - [ ] Readme is present  
@@ -39,12 +37,10 @@ We recommend using the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) a
 - [ ] All documented installation instructions can be successfully followed
 
 ### Licensing and Obtaining a DOI
-
 All included software will require a [license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) and also a DOI for software publication. Internal pipelines to HBCD might be leveraged for release data prior to publication. If the pipeline doesn’t yet have an associated scientific article yet that can be cited, we recommend developers obtain a DOI by self-publishing on [Zenodo](https://cdnis-brain.readthedocs.io/zenodo/). Software provided for HBCD releases from non-HBCD PIs will be required to be peer reviewed and published along with the DOI.   
 All software will be required to run on BIDS input data or currently available HBCD derivatives as provided in the most current HBCD release. 
 
 ### Versioning and New Release Policies
-
 Beyond basic version control in GitHub, developers should also tag new releases that are associated with specific versions of the repository whenever a large update (or large number of updates) has been made. The new tagged release should also include a change log that carefully documents the differences between the new and prior version.
 
 Developers may also wish to decide on a standard release cycle as well as special cases/parameters which warrant a new release (e.g. a serious bug fix that needs to be implemented in version ASAP). Ideally there would be documentation around which versions are expected to receive long-term support vs versions that will be deprecated and the timeline for deprecation.
