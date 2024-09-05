@@ -38,7 +38,7 @@ We recommend using the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) a
 - [ ] Digital Object Identifier (DOI) points to latest version (e.g., Zenodo)  
 - [ ] All documented installation instructions can be successfully followed
 
-### Licensing and software publication/obtaining a DOI {#licensing-and-software-publication/obtaining-a-doi}
+### Licensing and software publication/obtaining a DOI
 
 All included software will require a [license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) and also a DOI. Internal pipelines to HBCD might be leveraged for release data prior to publication. If the pipeline doesn’t yet have an associated scientific article yet that can be cited, we recommend developers obtain a DOI by self-publishing on [Zenodo](https://cdnis-brain.readthedocs.io/zenodo/). Software provided for HBCD releases from non-HBCD PIs will be required to be peer reviewed and published along with the DOI.   
 All software will be required to run on BIDS input data or currently available HBCD derivatives as provided in the most current HBCD release. 
