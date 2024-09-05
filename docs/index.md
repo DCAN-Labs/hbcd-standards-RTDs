@@ -20,7 +20,7 @@ At minimum, equivalent standards to the Bronze badge in the rating system are re
 - [ ] User installation instructions available  
 - [ ] Dependencies listed (i.e., external and within-language requirements)
 
-### Webpage to Host Living Documentation
+### Webpage For Documentation
 
 In addition to the general guidelines provided by the checklist, we highly encourage living pipeline documentation to be made available via a web page using utilities such as [ReadtheDocs](https://about.readthedocs.com/?ref=readthedocs.com), [GitHub Pages](https://pages.github.com/?(null)), [Wiki](https://support.microsoft.com/en-us/office/create-and-edit-a-wiki-dc64f9c2-d1a2-44b5-ac59-b9d535551a32), etc. This allows for information to stay up-to-date as compared to a publication and also is easier to navigate than a simple GitHub README given the depth of information typically required for image processing pipelines. When writing an initial collaborative draft, we recommend using Google Docs to first solidify the essential content and then convert the documents to whatever format (eg Markdown) is required to upload to the webpage. 
 
