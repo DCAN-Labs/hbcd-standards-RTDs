@@ -8,7 +8,7 @@ At minimum, equivalent standards to the Bronze badge in the rating system are re
 
 ## Documentation
 
-### NMIND Documentation Checklist:
+### NMIND Documentation Checklist
 
 - [ ] Landing page (e.g., GitHub README, website) provides a link to documentation and brief description of what program does  
 - [ ] Documentation is up to date with version of software  
@@ -28,7 +28,7 @@ We recommend using the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) a
 
 ## Infrastructure
 
-### NMIND Infrastructure Checklist:
+### NMIND Infrastructure Checklist
 
 - [ ] Code is open source  
 - [ ] Package is under version control  
@@ -51,11 +51,11 @@ Developers may also wish to decide on a standard release cycle as well as specia
 
 ## Testing Ability
 
-### NMIND Testing Checklist:
+### NMIND Testing Checklist
 
-- [ ] Provide / generate / point to test data  
+- [ ] Provide / generate / point to test data**  
 - [ ] Provide instructions for users to run tests that include instructions for evaluation for correct behavior
 
-Note that standards for testing ability may not be relevant to or high-priority for all processing pipelines used by HBCD. Additionally, depending on how specialized a given application is for HBCD, making test data openly available that is representative of the workflow is likely not possible. 
+**Note that standards for testing ability may not be relevant to or high-priority for all processing pipelines used by HBCD. Additionally, depending on how specialized a given application is for HBCD, making test data openly available that is representative of the workflow is likely not possible. 
 
 
